@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.bolsadeideas.springboot.examplewebservice.app.enty.Empleado;
 import com.bolsadeideas.springboot.examplewebservice.app.repo.EmpledoRepo;
 
+
 @Service
 public class EmpleadoService{
 	
