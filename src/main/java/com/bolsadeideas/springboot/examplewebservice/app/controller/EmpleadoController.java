@@ -14,12 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bolsadeideas.springboot.examplewebservice.app.enty.Empleado;
 import com.bolsadeideas.springboot.examplewebservice.app.service.EmpleadoService;
 
+
 @RestController
 @RequestMapping("/empleados")
 public class EmpleadoController {
 	
 	@Autowired
 	private EmpleadoService empleadoservice;
+	
 	
 	
 	//	Metodos & Peticiones
