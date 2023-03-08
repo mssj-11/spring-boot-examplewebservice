@@ -9,9 +9,11 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+
 @Entity
 @Table(name="Empleado") //	Nombre de la tabla a crear
 public class Empleado {
+	
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -23,6 +25,7 @@ public class Empleado {
 	private Integer edad;
 	private String telefono;
 	private Date fecha_nacimiento;
+	
 	
 	
 	
@@ -69,11 +72,6 @@ public class Empleado {
 	public void setFecha_nacimiento(Date fecha_nacimiento) {
 		this.fecha_nacimiento = fecha_nacimiento;
 	}
-	
-	
-	
-	
-	
 	
 	
 	
